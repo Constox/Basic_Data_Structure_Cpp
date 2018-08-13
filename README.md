@@ -1,5 +1,5 @@
 # Basic_Data_Structure_C++
-Some implementations of basic data structures like linked list,  queue, stack, tree etc. Some code comes from Leetcode.
+Some implementations of basic data structures like linked list,  queue, stack, tree etc. Some code use the structure of [LeetCode](https://leetcode.com/).
 
 ## LinkedList
 Some data structure concerning linked list.  
