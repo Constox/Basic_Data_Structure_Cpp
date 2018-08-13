@@ -1,6 +1,12 @@
 # Basic_Data_Structure_C++
 Some implementations of basic data structures like linked list,  queue, stack, tree etc. Some code comes from Leetcode.
 
+## LinkedList
+Some data structure concerning linked list.  
+### Single Linked List
+SingleLinkedList.h is based on single list, it is a linked list with a head node, and a tail node.  
+It has been tested on LeetCode, 53/53 test cases passed, and its runtime beats 91.45% of cpp submissions.
+
 ## Queue
 First in first out.
 ### Basic Queue
