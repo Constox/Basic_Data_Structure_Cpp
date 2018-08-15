@@ -7,7 +7,7 @@
 
 struct SingleListNode {
     int val;
-    SingleListNode* next;
+    SingleListNode* next;   //next node
     explicit SingleListNode(int x): val(x), next(nullptr){}
 };
 
@@ -21,12 +21,14 @@ public:
     MyLinkedList() {
         // Single list with a head node
         SLNode = new SingleListNode(-1);
-        tail = new SingleListNode(-1);
+        tail = SLNode;
         size = 0;
     }
 
     /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
     int get(int index) {
+        if(index < 0)
+            return -1;
         if(size == 0)
             return -1;
         if(index >= size)
